@@ -1,0 +1,39 @@
+.header{
+    background-image: url("../img/header.png");
+    background-size: cover;
+    height: 100vh;
+}
+.header_container{
+    position: relative;
+    height: 100vh;
+    /* display: none; */
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.title{
+    display: inline-block;
+    margin-top: 10%;
+}
+.text{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Exo 2;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+a{
+    color: #FFF;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

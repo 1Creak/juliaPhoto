@@ -1,0 +1,18 @@
+.title{
+    text-align: center;
+    margin-top: 112px;
+}
+.title::after, .title::before{
+    top: 50%;
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 38%;
+    position: absolute;
+}
+.title::before{
+    left: 0%;
+}
+.title::after{
+    right: 0%;
+}
